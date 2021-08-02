@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResposibilityPrinciple", "SingleResposibilityPrinciple\SingleResposibilityPrinciple.csproj", "{E877E77B-B7AD-4057-9EA2-824D11ECBB8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResposibilityPrinciple", "SingleResposibilityPrinciple\SingleResposibilityPrinciple.csproj", "{E877E77B-B7AD-4057-9EA2-824D11ECBB8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{92020807-509E-4E49-84EB-7C0DA1EF4B7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovPrinciple", "LiskovPrinciple\LiskovPrinciple.csproj", "{C55D8591-5862-4258-A536-70FE0EB53C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{57DB7AF0-3047-4B5A-B11C-72AAB814F28D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{E877E77B-B7AD-4057-9EA2-824D11ECBB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E877E77B-B7AD-4057-9EA2-824D11ECBB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E877E77B-B7AD-4057-9EA2-824D11ECBB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92020807-509E-4E49-84EB-7C0DA1EF4B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92020807-509E-4E49-84EB-7C0DA1EF4B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92020807-509E-4E49-84EB-7C0DA1EF4B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92020807-509E-4E49-84EB-7C0DA1EF4B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55D8591-5862-4258-A536-70FE0EB53C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55D8591-5862-4258-A536-70FE0EB53C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55D8591-5862-4258-A536-70FE0EB53C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55D8591-5862-4258-A536-70FE0EB53C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DB7AF0-3047-4B5A-B11C-72AAB814F28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DB7AF0-3047-4B5A-B11C-72AAB814F28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DB7AF0-3047-4B5A-B11C-72AAB814F28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DB7AF0-3047-4B5A-B11C-72AAB814F28D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
